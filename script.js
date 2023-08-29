@@ -1,4 +1,4 @@
-const apiKey = 'YOUR_API_KEY';
+const apiKey = 'ebf3393e07b26e96a6c4020203594abd';
 const searchForm = document.getElementById('search-form');
 const cityInput = document.getElementById('city-input');
 const currentWeatherContainer = document.getElementById('current-weather-container');
@@ -40,7 +40,7 @@ function fetchWeatherData(cityName) {
 }
 
 function displayCurrentWeather(data) {
-  // Clear previous content
+  
   currentWeatherContainer.innerHTML = '';
 
   // Create elements to display current weather
